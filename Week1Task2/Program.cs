@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Week1Task1
+namespace Week1Task2
 {
     class Program
     {
@@ -18,10 +18,8 @@ namespace Week1Task1
                 string[] val = str.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
                 var a = long.Parse(val[0]);
                 var b = long.Parse(val[1]);
-                writer.Write(a + b);
+                writer.Write(a + b * b);
             }
         }
-
-
     }
 }
