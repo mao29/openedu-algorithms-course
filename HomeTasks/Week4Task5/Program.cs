@@ -523,7 +523,7 @@ namespace Week4Task5
 
             public QuackVM()
             {
-                for (char c = 'a'; c < 'z'; c++)
+                for (char c = 'a'; c <= 'z'; c++)
                 {
                     _registry[c] = 0;
                 }
